@@ -32,3 +32,26 @@
     ```bash
     git clone https://github.com/ErinAbduli/parkudo.git
     ```
+2. Navigate into the project folder:
+    ```bash
+    cd parkudo
+    ```
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+4. Create a .env file:
+   `bash
+DATABASE_URL=your_neon_database_url
+  GOOGLE_MAPS_API_KEY=your_google_maps_api_key
+`
+5. Start the Expo development server:
+    ```bash
+    npm start
+    ```
+6. Run the app on your device:
+   `bash
+   Download Expo Go from the App Store (iOS) or Google Play (Android).
+   Open Expo Go and scan the QR code shown in the terminal or browser.
+   The app will load instantly on your phone for live testing.
+`
