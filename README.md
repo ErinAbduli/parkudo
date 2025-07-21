@@ -1,50 +1,34 @@
-# Welcome to your Expo app 👋
+# Parkudo
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Parkudo** is an app that helps you find parking spots in cities super easily — think Uber, but for parking. Whether you’re cruising downtown or visiting a busy area, Parkudo finds you the nearest available parking spot fast so you don’t waste time circling around.
 
-## Get started
+---
 
-1. Install dependencies
+## Features
 
-   ```bash
-   npm install
-   ```
+- Real-time search for nearby parking spots across the city
+- Book your spot ahead of time to guarantee parking
+- Navigate directly to your reserved spot with map integration
+- User profiles and booking history for easy management
+- Instant notifications for booking confirmation and updates
+- Smooth, fast mobile app built with Expo (React Native)
+- Serverless backend powered by Neon (PostgreSQL)
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## Tech Stack
 
-In the output, you'll find options to open the app in a
+- **Frontend:** React Native with Expo
+- **Backend:** Serverless functions (e.g., Vercel, Netlify Functions, or Cloudflare Workers)
+- **Database:** Neon (PostgreSQL)
+- **Maps API:** Google Maps / Mapbox
+- **Version Control:** Git + GitHub
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Installation & Setup
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1. Clone the repo:
+    ```bash
+    git clone https://github.com/ErinAbduli/parkudo.git
+    ```
